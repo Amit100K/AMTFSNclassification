@@ -304,7 +304,7 @@ numClasses = 3;
 layers = [ ...
     sequenceInputLayer(inputSize)
     batchNormalizationLayer
-    lstmLayer(500,OutputMode="last")
+    lstmLayer(numHiddenUnits,OutputMode="last")
     batchNormalizationLayer
     selfAttentionLayer(4, 16)
     dropoutLayer(0.5)
@@ -338,5 +338,6 @@ YPred = classify(net, cellArray_test);
 Accuracy = sum(YPred == testLabels) / numel(testLabels);
 
 disp(['Test accuracy: ', num2str(Accuracy)]);
+
 
 %% 
