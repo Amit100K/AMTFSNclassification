@@ -13,7 +13,7 @@ Open the main file and update the required details:
 
     2. Sampling rate
 
-    3. Any other dataset-specific parameters
+    3. Any other dataset-specific parameters and deep neural network-based hyperparameters
 
 Save the changes.
 
