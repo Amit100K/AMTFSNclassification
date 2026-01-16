@@ -1,3 +1,35 @@
+## MVMD: 
+The MVMD is also availabel online at: [https://in.mathworks.com/matlabcentral/fileexchange/42141-empirical-wavelet-transforms](https://in.mathworks.com/matlabcentral/fileexchange/72814-multivariate-variational-mode-decomposition-mvmd)
+Please cite as: Naveed ur Rehman (2026). Multivariate Variational Mode Decomposition (MVMD) (https://in.mathworks.com/matlabcentral/fileexchange/72814-multivariate-variational-mode-decomposition-mvmd), MATLAB Central File Exchange. Retrieved January 16, 2026.
+
+## Processing of the code:
+Download all the files and save them in a specific folder on your computer.
+
+Locate the main script/file (e.g., Main_AMTFSN_Code.m).
+
+Open the main file and update the required details:
+
+    1. Path to the data folder
+
+    2. Sampling rate
+
+    3. Any other dataset-specific parameters
+
+Save the changes.
+
+Execute the code step by step, running each command or section in sequence to ensure everything works as expected.
+
+
+
+
+
+
+
+
+
+
+
+
 ## AMTFSNPrediction Executable %%%% FOR APPLICATION
 
 1. Prerequisites for Deployment 
